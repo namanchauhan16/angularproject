@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+}
+
+input[type=text]:focus+i{
+    border-color: dodgerblue;
+    box-shadow: 0 0 6px 0 dodgerblue;
+}
+
+#leftDiv{
+    background-color: rgb(212, 212, 212);
+    height: 100%;
+    width: 40%;
+    position: absolute;
+}
+
+#rightDiv{
+    height: 100%;
+    width: 60%;
+    position: absolute;
+    right: 0;
+    box-shadow: -10px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#welcomeDiv{
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
+
+#welcomeDiv p{
+    margin: 5px;
+    font-size: 25px;
+}
+
+#rightDiv1{
+    height: 20vh;
+    width: 20vw;
+    position: absolute;
+    top: 15%;
+    left: 32%;
+    text-align: center;
+}
+
+#rightDiv2{
+    height: 40vh;
+    width: 30vw;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+
+}
+
+.inputWithIcon input{
+    padding-left: 50px;
+    margin: 25px;
+}
+
+.inputWithIcon i{
+    margin: 0;
+    position: relative;
+    bottom: 57px;
+    left: 37px;
+    font-size: 25px;
+}
+
+.checkbox{
+    position: relative;
+    bottom: 30px;
+    left: 30px;
+}
+
+.submit{
+    position: absolute;
+    bottom:30%;
+    left: 45%;
+}
+
+.submit button{
+    padding: 5px 40px 5px 40px;
+}
+
+.signUp{
+    position: absolute;
+    bottom: 23%;
+    left: 40%;
+}
+
